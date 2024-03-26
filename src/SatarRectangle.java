@@ -1,7 +1,13 @@
+import java.util.Scanner;
+
 public class SatarRectangle {
     public static void main(String[] args) {
-        for (int i = 0; i < 4; i++) {
-            for (int j = 0; j <5 ; j++) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the m and n :");
+        int n = sc.nextInt();
+        int m = sc.nextInt();
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j <m ; j++) {
                 System.out.print("*");
 
             }
